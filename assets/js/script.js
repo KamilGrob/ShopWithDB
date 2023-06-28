@@ -35,5 +35,7 @@ function submitForm(name, username, email, address, phone, company) {
       console.error(error);
     }
   });
-  window.location.href = 'index.php';
+  setTimeout(function() {
+    window.location.href = 'index.php';
+  }, 1000);
   }

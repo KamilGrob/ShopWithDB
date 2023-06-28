@@ -1,0 +1,41 @@
+.starting-title {
+    text-align: center;
+}
+table, table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table th, table td {
+    padding: 8px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+table th {
+    background-color: #f2f2f2;
+}
+
+table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+table tbody tr:hover {
+    background-color: #eaeaea;
+}
+input, button {
+    width: 95%;
+}
+button{
+    padding: 10%;
+    background-color: rgb(185, 185, 185);
+    color: #000000;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #5a636d;
+  }
+  
